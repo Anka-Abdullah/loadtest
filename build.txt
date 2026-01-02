@@ -1,0 +1,2 @@
+# Build untuk Windows 64-bit dengan optimasi
+GOOS=windows GOARCH=amd64 go build -ldflags="-s -w"
